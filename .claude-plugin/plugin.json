@@ -1,14 +1,14 @@
 {
-  "name": "workflow-skills",
-  "description": "Workflow automation skills for Claude Code - JIRA, Git, documentation, and more",
+  "name": "jira-skills",
+  "description": "JIRA task management skills for Claude Code - view, complete, and reschedule tasks",
   "version": "1.0.0",
   "author": {
     "name": "M-Project Team"
   },
-  "homepage": "https://github.com/jetmax68/claude-workflow-skills",
+  "homepage": "https://github.com/kdhpa/claude-workflow-skills",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jetmax68/claude-workflow-skills.git"
+    "url": "https://github.com/kdhpa/claude-workflow-skills.git"
   },
   "license": "MIT"
 }
