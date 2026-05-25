@@ -1,0 +1,14 @@
+{
+  "name": "jira-skills",
+  "description": "JIRA task management skills for Claude Code - view, complete, and reschedule tasks",
+  "version": "1.0.0",
+  "author": {
+    "name": "M-Project Team"
+  },
+  "homepage": "https://github.com/yourorg/claude-jira-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourorg/claude-jira-plugin.git"
+  },
+  "license": "MIT"
+}

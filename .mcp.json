@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "jira": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@tom28881/mcp-jira-server"
+      ],
+      "env": {
+        "JIRA_HOST": "${JIRA_HOST}",
+        "JIRA_EMAIL": "${JIRA_EMAIL}",
+        "JIRA_API_TOKEN": "${JIRA_API_TOKEN}",
+        "JIRA_DEFAULT_PROJECT": "${JIRA_DEFAULT_PROJECT}"
+      }
+    }
+  }
+}
