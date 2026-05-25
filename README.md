@@ -6,10 +6,14 @@ JIRA 작업 관리를 위한 Claude Code 플러그인입니다.
 
 이 플러그인은 다음 스킬을 제공합니다:
 
+### JIRA 작업 관리
 - **/jira-skills:today-tasks** - 오늘 시작일/마감일인 진행중인 작업 조회
 - **/jira-skills:complete-tasks** - 완료된 작업 처리
 - **/jira-skills:reschedule** - 연체된 작업 마감일 재조정
 - **/jira-skills:upcoming-tasks** - 다가오는 작업 조회
+
+### Unity 현지화 작업
+- **/jira-skills:mp-to-localization** - MP 스크립트를 StringID로 변환하고 Google Sheets에 번역 데이터 기입
 
 ## 설치
 
