@@ -1,15 +1,22 @@
-# JIRA Skills Plugin for Claude Code
+# Workflow Skills Plugin for Claude Code
 
-JIRA 작업 관리를 위한 Claude Code 플러그인입니다.
+개발 워크플로우 자동화를 위한 Claude Code 플러그인 모음입니다.
 
 ## 기능
 
-이 플러그인은 다음 스킬을 제공합니다:
+### JIRA 관리 스킬
 
-- **/jira-skills:today-tasks** - 오늘 시작일/마감일인 진행중인 작업 조회
-- **/jira-skills:complete-tasks** - 완료된 작업 처리
-- **/jira-skills:reschedule** - 연체된 작업 마감일 재조정
-- **/jira-skills:upcoming-tasks** - 다가오는 작업 조회
+- **/workflow-skills:today-tasks** - 오늘 시작일/마감일인 진행중인 작업 조회
+- **/workflow-skills:complete-tasks** - 완료된 작업 처리
+- **/workflow-skills:reschedule** - 연체된 작업 마감일 재조정
+- **/workflow-skills:upcoming-tasks** - 다가오는 작업 조회
+
+### 추가 예정 스킬
+
+- Git 워크플로우 자동화
+- 문서 생성 및 관리
+- 코드 리뷰 도우미
+- 배포 자동화
 
 ## 설치
 
@@ -17,10 +24,10 @@ JIRA 작업 관리를 위한 Claude Code 플러그인입니다.
 
 ```bash
 # Git 저장소에서 직접 설치
-claude plugin install https://github.com/yourorg/claude-jira-plugin
+claude plugin install https://github.com/jetmax68/claude-workflow-skills
 
 # 또는 로컬 디렉토리에서 테스트
-claude --plugin-dir E:/claude-jira-plugin
+claude --plugin-dir E:/claude-workflow-skills
 ```
 
 ### 2. 환경 변수 설정
@@ -65,7 +72,7 @@ export JIRA_DEFAULT_PROJECT="SCRUM"
 ### 오늘 할 일 확인
 
 ```bash
-/jira-skills:today-tasks
+/workflow-skills:today-tasks
 ```
 
 출력 예시:
@@ -87,25 +94,25 @@ export JIRA_DEFAULT_PROJECT="SCRUM"
 
 ```bash
 # 미리보기 (기본)
-/jira-skills:reschedule
+/workflow-skills:reschedule
 
 # 실제 업데이트 (7일 추가)
-/jira-skills:reschedule --no-dry-run
+/workflow-skills:reschedule --no-dry-run
 
 # 커스텀 일수 (14일 추가)
-/jira-skills:reschedule --no-dry-run --days-to-add 14
+/workflow-skills:reschedule --no-dry-run --days-to-add 14
 ```
 
 ### 완료된 작업 처리
 
 ```bash
-/jira-skills:complete-tasks
+/workflow-skills:complete-tasks
 ```
 
 ### 다가오는 작업 확인
 
 ```bash
-/jira-skills:upcoming-tasks
+/workflow-skills:upcoming-tasks
 ```
 
 ## 의존성
