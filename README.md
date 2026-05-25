@@ -17,11 +17,18 @@ JIRA 작업 관리를 위한 Claude Code 플러그인입니다.
 
 ## 설치
 
-### 1. 플러그인 설치
+### 1. 마켓플레이스 등록 및 플러그인 설치
 
 ```bash
-# Git 저장소에서 직접 설치
-claude plugin install https://github.com/kdhpa/claude-workflow-skills
+# 1단계: 마켓플레이스 등록
+/plugin marketplace add https://github.com/kdhpa/claude-workflow-skills
+
+# 2단계: 플러그인 설치
+/plugin install jira-today-tasks@claude-workflow-skills
+/plugin install jira-complete-tasks@claude-workflow-skills
+/plugin install jira-reschedule@claude-workflow-skills
+/plugin install jira-upcoming-tasks@claude-workflow-skills
+/plugin install mp-to-localization@claude-workflow-skills
 
 # 또는 로컬 디렉토리에서 테스트
 claude --plugin-dir E:/claude-jira-skills
