@@ -1,8 +1,8 @@
 {
   "name": "mp-to-localization",
-  "version": "1.0.0",
-  "description": "MP 스크립트를 파싱하여 LocalizationID로 변환하고 Google Sheets에 번역 데이터 기입",
-  "tags": ["localization", "mp", "sheets", "automation"],
+  "version": "1.1.0",
+  "description": "MP 스크립트를 파싱하여 LocalizationID로 변환하고 자동 번역(KO/EN/JP/CN)하여 Google Sheets에 기입",
+  "tags": ["localization", "mp", "sheets", "automation", "translation"],
   "author": "Claude Code",
   "invocableBy": "user"
 }

@@ -1,0 +1,51 @@
+{
+  "name": "claude-workflow-skills",
+  "displayName": "Claude Workflow Skills",
+  "description": "JIRA task management and Unity localization workflow skills for Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "M-Project Team"
+  },
+  "homepage": "https://github.com/kdhpa/claude-workflow-skills",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdhpa/claude-workflow-skills.git"
+  },
+  "skills": [
+    {
+      "id": "jira-today-tasks",
+      "name": "JIRA Today Tasks",
+      "description": "오늘 시작일/마감일인 진행중인 Jira 작업 조회",
+      "version": "1.0.0",
+      "path": "skills/jira-today-tasks"
+    },
+    {
+      "id": "jira-complete-tasks",
+      "name": "JIRA Complete Tasks",
+      "description": "완료된 Jira 작업 처리",
+      "version": "1.0.0",
+      "path": "skills/jira-complete-tasks"
+    },
+    {
+      "id": "jira-reschedule",
+      "name": "JIRA Reschedule",
+      "description": "연체된 Jira 작업 마감일 재조정",
+      "version": "1.0.0",
+      "path": "skills/jira-reschedule"
+    },
+    {
+      "id": "jira-upcoming-tasks",
+      "name": "JIRA Upcoming Tasks",
+      "description": "다가오는 Jira 작업 조회",
+      "version": "1.0.0",
+      "path": "skills/jira-upcoming-tasks"
+    },
+    {
+      "id": "mp-to-localization",
+      "name": "MP to Localization",
+      "description": "MP 스크립트를 파싱하여 LocalizationID로 변환하고 자동 번역(KO/EN/JP/CN)하여 Google Sheets에 기입",
+      "version": "1.1.0",
+      "path": "skills/mp-to-localization"
+    }
+  ]
+}
